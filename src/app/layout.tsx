@@ -19,8 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={outfit.className}>
-        <ThemeProvider enableSystem={false}>
+      <body className={outfit.className} suppressHydrationWarning={true}>
+        <ThemeProvider enableSystem={true}>
           {children}
         </ThemeProvider>
       </body>
