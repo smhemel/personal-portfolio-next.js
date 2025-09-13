@@ -102,3 +102,79 @@ export const experienceData = [
     ],
   },
 ]
+
+// Skills
+export const skillsData = [
+  {
+    name: 'Figma',
+    icon: '/skills/figma.png',
+  },
+  {
+    name: 'Photoshop',
+    icon: '/skills/photoshop.png',
+  },
+  {
+    name: 'Blender',
+    icon: '/skills/blender.png',
+  },
+  {
+    name: 'VS Code',
+    icon: '/skills/vscode.png',
+  },
+  {
+    name: 'HTML',
+    icon: '/skills/html.png',
+  },
+  {
+    name: 'CSS',
+    icon: '/skills/css.png',
+  },
+  {
+    name: 'JavaScript',
+    icon: '/skills/js.png',
+  },
+  {
+    name: 'TailwindCSS',
+    icon: '/skills/tailwind.png',
+  },
+  {
+    name: 'Vite',
+    icon: '/skills/vite.png',
+  },
+  {
+    name: 'ReactJS',
+    icon: '/skills/react.png',
+  },
+  {
+    name: 'TypeScript',
+    icon: '/skills/ts.png',
+  },
+  {
+    name: 'AI',
+    icon: '/skills/ai.png',
+  },
+  {
+    name: 'Framer Motion',
+    icon: '/skills/framer.png',
+  },
+  {
+    name: 'ThreeJS',
+    icon: '/skills/threejs.png',
+  },
+  {
+    name: 'NextJS',
+    icon: '/skills/nextjs.png',
+  },
+  {
+    name: 'NodeJS',
+    icon: '/skills/nodejs.png',
+  },
+  {
+    name: 'MongoDB',
+    icon: '/skills/mongodb.png',
+  },
+  {
+    name: 'Github',
+    icon: '/skills/github.png',
+  },
+]
