@@ -419,3 +419,72 @@ export const questions = [
       'Yes, we can arrange a maintenance package to suit your needs. This can range from 1hr per month to 10 hours per month and we can discuss a package that’s right for you.',
   },
 ]
+
+// Navbar
+import CopyrightLineIcon from 'remixicon-react/CopyrightLineIcon'
+export const copyRightIcon = <CopyrightLineIcon />
+
+import Home5LineIcon from 'remixicon-react/Home5LineIcon'
+import UserLineIcon from 'remixicon-react/UserLineIcon'
+import HistoryLineIcon from 'remixicon-react/HistoryLineIcon'
+import BriefcaseLineIcon from 'remixicon-react/BriefcaseLineIcon'
+import UserStarLineIcon from 'remixicon-react/UserStarLineIcon'
+import ProjectorLineIcon from 'remixicon-react/ProjectorLineIcon'
+import PriceTag3LineIcon from 'remixicon-react/PriceTag3LineIcon'
+import ContactsBook2LineIcon from 'remixicon-react/ContactsBook2LineIcon'
+import QuestionAnswerLineIcon from 'remixicon-react/QuestionAnswerLineIcon'
+
+export const navbarData = [
+  {
+    id: 'home',
+    name: 'Home',
+    icon: <Home5LineIcon />,
+  },
+  {
+    id: 'about',
+    name: 'About',
+    icon: <UserLineIcon />,
+  },
+  {
+    id: 'experience',
+    name: 'MyRoad',
+    icon: <HistoryLineIcon />,
+  },
+  {
+    id: 'skills',
+    name: 'Skills',
+    icon: <BriefcaseLineIcon />,
+  },
+  {
+    id: 'reviews',
+    name: 'Reviews',
+    icon: <UserStarLineIcon />,
+  },
+  {
+    id: 'projects',
+    name: 'Projects',
+    icon: <ProjectorLineIcon />,
+  },
+  {
+    id: 'pricing',
+    name: 'Pricing',
+    icon: <PriceTag3LineIcon />,
+  },
+  {
+    id: 'contact',
+    name: 'Contact',
+    icon: <ContactsBook2LineIcon />,
+  },
+  {
+    id: 'questions',
+    name: 'Questions',
+    icon: <QuestionAnswerLineIcon />,
+  },
+]
+
+// Toggle
+import MoonFoggyFillIcon from 'remixicon-react/MoonFoggyFillIcon'
+import SunFoggyFillIcon from 'remixicon-react/SunFoggyFillIcon'
+
+export const sunIcon = <SunFoggyFillIcon />
+export const moonIcon = <MoonFoggyFillIcon />
