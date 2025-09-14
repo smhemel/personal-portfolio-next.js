@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
 import { heroIcons } from '@/assets'
@@ -89,13 +90,13 @@ const Hero = () => {
           className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600 max-sm:text-2xl"
         >
           {heroIcons.map((icon: any, i: any) => (
-            <a
-              href="#"
+            <Link
+              href="/"
               key={i}
               className="rounded-lg hover:bg-red-400 hover:text-white transition-colors"
             >
               {icon}
-            </a>
+            </Link>
           ))}
         </motion.div>
         <motion.a

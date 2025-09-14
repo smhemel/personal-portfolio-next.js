@@ -1,0 +1,11 @@
+{
+  "editor.fontFamily": "Operator Mono, Menlo, monospace",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "300",
+  "editor.matchBrackets": "never", // using Subtle Match Brackets instead
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+  "terminal.integrated.fontSize": 14,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+}
