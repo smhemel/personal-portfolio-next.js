@@ -110,14 +110,6 @@ export const skillsData = [
     icon: '/skills/figma.png',
   },
   {
-    name: 'Photoshop',
-    icon: '/skills/photoshop.png',
-  },
-  {
-    name: 'Blender',
-    icon: '/skills/blender.png',
-  },
-  {
     name: 'VS Code',
     icon: '/skills/vscode.png',
   },
@@ -156,10 +148,6 @@ export const skillsData = [
   {
     name: 'Framer Motion',
     icon: '/skills/framer.png',
-  },
-  {
-    name: 'ThreeJS',
-    icon: '/skills/threejs.png',
   },
   {
     name: 'NextJS',
