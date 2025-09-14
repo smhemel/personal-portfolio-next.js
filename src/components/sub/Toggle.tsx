@@ -31,7 +31,7 @@ const Toggle = ({ children }: PropsWithChildren) => {
   useEffect(() => {
     const darkTheme = reactLocalStorage.get('darkTheme');
     const darkThemeParsed = darkTheme !== undefined && typeof darkTheme === 'string' && JSON.parse(darkTheme);
-    
+
     const systemTheme = resolvedTheme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
 
     if (darkTheme === undefined) {
@@ -39,7 +39,7 @@ const Toggle = ({ children }: PropsWithChildren) => {
     } else {
       darkThemeParsed ? addDarkTheme() : removeDarkTheme();
     }
-  }, [mounted, theme, resolvedTheme, setTheme]);
+  }, [mounted, theme, resolvedTheme, setTheme, addDarkTheme, removeDarkTheme]);
 
   return (
     <main>

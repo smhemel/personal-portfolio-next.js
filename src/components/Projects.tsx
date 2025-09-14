@@ -12,15 +12,15 @@ const Projects = () => {
   const [index, setIndex] = useState(0)
   const [tech, setTech] = useState('All')
 
-  useEffect(() => {
-    handleClick()
-    prevIndex.current = index
-  }, [index])
-
   const handleClick = () => {
     animate(buttonsRef.current[prevIndex.current], { opacity: 0.5, scale: 1 })
     animate(buttonsRef.current[index], { opacity: 1, scale: 1.2 })
   }
+
+  useEffect(() => {
+    handleClick()
+    prevIndex.current = index
+  }, [index, handleClick])
 
   return (
     <div id="projects" className="min-h-screen py-20">

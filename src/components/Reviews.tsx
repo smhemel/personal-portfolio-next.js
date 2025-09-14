@@ -13,11 +13,6 @@ const Reviews = () => {
   const [index, setIndex] = useState(0)
   const [direction, setDirection] = useState(false)
 
-  useEffect(() => {
-    direction ? leftClickHandler() : rightClickHandler()
-    prevIndex.current = index
-  }, [index])
-
   const rightClickHandler = () => {
     animate(slides.current[index], { x: 0 }, { delay: 0.3 })
     animate(slides.current[prevIndex.current], {
@@ -30,6 +25,11 @@ const Reviews = () => {
     animate(slides.current[index], { scale: 1, rotate: 0 }, { delay: 0.2 })
     animate(slides.current[prevIndex.current], { x: '100%' })
   }
+
+    useEffect(() => {
+    direction ? leftClickHandler() : rightClickHandler()
+    prevIndex.current = index
+  }, [index, direction, leftClickHandler, rightClickHandler])
 
   return (
     <div id="reviews" className="my-20">
