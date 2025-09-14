@@ -35,7 +35,7 @@ export default function Home() {
         },
         { threshold: 0.3 },
       );
-      
+
       if (compsRef?.current) {
         const compsArr = Array.from(compsRef.current?.children);
         compsArr.forEach((comp) => {
